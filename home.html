@@ -7,7 +7,8 @@
     <title>The Mafia Club</title>
     <link rel="stylesheet" href="home.css">
 
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
 </head>
 
 <body>
@@ -18,13 +19,13 @@
                 <h2 class="card-topic-title">2021</h2>
                 <h4 class="card-topic-subtitle">FUNDAÇÃO</h4>
             </div>
-             <div class="card-topic">
+            <div class="card-topic">
                 <i class="fi fi-rr-trophy-star" id="card-topic-icon"></i>
                 <h2 class="card-topic-title">5</h2>
                 <h4 class="card-topic-subtitle">RESTANTES</h4>
             </div>
             <div class="card-topic">
-                <i class="fi fi-rr-world"  id="card-topic-icon"></i>
+                <i class="fi fi-rr-world" id="card-topic-icon"></i>
                 <h2 class="card-topic-title">2030</h2>
                 <h4 class="card-topic-subtitle">REENCONTRO</h4>
             </div>
@@ -46,7 +47,7 @@
                         </div>
                     </div>
                     <div class="temp-horario">
-                        <h2 class="horario">02:16</h2>
+                        <h2 class="horario"><span id="it-time">--:--:--</span></h2>
                     </div>
                 </div>
                 <div class="card-horarios">
@@ -60,7 +61,7 @@
                         </div>
                     </div>
                     <div class="temp-horario">
-                        <h2 class="horario">02:16</h2>
+                        <h2 class="horario"><span id="br-time">--:--:--</span></h2>
                     </div>
                 </div>
                 <div class="card-horarios">
@@ -69,17 +70,35 @@
                             <h1 class="sigla-pais">PT</h1>
                         </div>
                         <div class="ext-pais">
-                            <h2 class="cidade-loc">Turim</h2>
+                            <h2 class="cidade-loc">Lisboa</h2>
                             <h5 class="pais-loc">Portugal</h5>
                         </div>
                     </div>
                     <div class="temp-horario">
-                        <h2 class="horario">02:16</h2>
+                        <h2 class="horario"><span id="pt-time">--:--:--</span></h2>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="mensagge-container">
+            <h2 class="frase">O MUNDO É MÁFIA</h2>
+        </div>
+
+        <div class="cartas-container">
+            <div class="header-cartas">
+                <i class="fi fi-rr-envelope" id="carta-icon"></i>
+                <h2 class="header-cartas-title">Cartas</h2>
+            </div>
+            <div class="main-cartas">
+                <div class="cartas-card">
+                    <img src="" alt="" class="card-perfil-carta">
+                    <h4 class="card-title-carta"></h4>
+                    <p class="card-descricao-carta"></p>
+                </div>
+            </div>
+        </div>
     </div>
+    <script src="home.js"></script>
 </body>
 
 </html>
