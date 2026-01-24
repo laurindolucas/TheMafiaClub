@@ -126,10 +126,8 @@ body {
 
 .horario {
     color: rgb(201, 10, 10);
-<<<<<<< HEAD
-    padding: ;
-=======
 }
+
 .mensagge-container{
     display: flex;
     flex-direction: column;
@@ -144,5 +142,75 @@ body {
 .frase{
     text-align: center;
     color: white;
->>>>>>> 46c3d6c0011c4c7d311a1996a03d04cdf460f4c4
+}
+
+.header-cartas{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin:  10px 0px 10px;
+
+}
+#carta-icon{
+        color: rgb(201, 10, 10);
+
+}
+.header-cartas-title{
+color: white;
+}
+
+.main-cartas{
+    display: flex;
+    width: 100%;
+    gap: 5px;
+}
+
+.cartas-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #3d3d3d8c;
+    background-color: rgba(0, 0, 0, 0.219);
+    border-radius: 10px;
+    height: 100px;
+    width: 10000px;
+    justify-content: center;
+    animation: pulseRed 1.5s infinite;
+}
+
+
+@keyframes pulseRed {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.3);
+        border-color: rgba(255, 0, 0, 0.7);
+    }
+
+    50% {
+        box-shadow: 0 0 2px 0.5px rgba(255, 0, 0, 0.5);
+        border-color: rgba(255, 0, 0, 1);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.3);
+        border-color: rgba(255, 0, 0, 0.7);
+    }
+}
+.card-perfil-carta {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+.card-title-carta{
+    text-align: center;
+     color: rgb(201, 10, 10);
+     
+}
+
+.card-descricao-carta{
+    text-align: center;
+    font-size: 8px;
+    color: #3d3d3d8c;
 }
