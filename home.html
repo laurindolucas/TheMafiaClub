@@ -13,6 +13,9 @@
 
 <body>
     <div class="container">
+        <div class="header-page">
+            <img src="/assets/the mafia.png" alt="" class="header-page-logo">
+        </div>
         <div class="cards-topic">
             <div class="card-topic">
                 <i class="fi fi-rr-calendar" id="card-topic-icon"></i>
@@ -80,9 +83,7 @@
                 </div>
             </div>
         </div>
-        <div class="mensagge-container">
-            <h2 class="frase">O MUNDO É MÁFIA</h2>
-        </div>
+
 
         <div class="cartas-container">
             <div class="header-cartas">
@@ -90,34 +91,61 @@
                 <h2 class="header-cartas-title">Cartas</h2>
             </div>
             <div class="main-cartas">
-                <div class="cartas-card">
-                    <img src="/assets/vitor.png" alt="" class="card-perfil-carta">
+                <div class="cartas-card" data-user="vitor">
+                    <img src="/assets/vitor.png" class="card-perfil-carta">
                     <h4 class="card-title-carta">Vitor</h4>
                     <p class="card-descricao-carta">Toque para ler</p>
                 </div>
-                
-                <div class="cartas-card">
-                    <img src="/assets/jhennifer.png" alt="" class="card-perfil-carta">
+
+                <div class="cartas-card" data-user="jhen">
+                    <img src="/assets/jhennifer.png" class="card-perfil-carta">
                     <h4 class="card-title-carta">Jhen</h4>
                     <p class="card-descricao-carta">Toque para ler</p>
                 </div>
-                <div class="cartas-card">
-                    <img src="/assets/caio.png" alt="" class="card-perfil-carta">
+
+                <div class="cartas-card" data-user="caio">
+                    <img src="/assets/caio.png" class="card-perfil-carta">
                     <h4 class="card-title-carta">Caio</h4>
                     <p class="card-descricao-carta">Toque para ler</p>
                 </div>
-                <div class="cartas-card">
-                    <img src="/assets/livia.png" alt="" class="card-perfil-carta">
+
+                <div class="cartas-card" data-user="livia">
+                    <img src="/assets/livia.png" class="card-perfil-carta">
                     <h4 class="card-title-carta">Livia</h4>
                     <p class="card-descricao-carta">Toque para ler</p>
                 </div>
-                <div class="cartas-card">
-                    <img src="/assets/vini.png" alt="" class="card-perfil-carta">
+
+                <div class="cartas-card" data-user="vini">
+                    <img src="/assets/vini.png" class="card-perfil-carta">
                     <h4 class="card-title-carta">Vini</h4>
                     <p class="card-descricao-carta">Toque para ler</p>
                 </div>
+
             </div>
         </div>
+      
+        <div class="modal" id="modal-cartas">
+            <div class="modal-content">
+
+                <span class="close-modal" id="close-modal">&times;</span>
+
+                <h2 id="modal-title"></h2>
+
+                
+                <div class="modal-buttons" id="modal-buttons"></div>
+
+               
+                <div class="modal-letter" id="modal-letter">
+                    <p>Selecione uma carta 👆</p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="mensagge-container">
+        <h2 class="frase">O MUNDO É MÁFIA</h2>
+    </div>
     </div>
     <script src="home.js"></script>
 </body>
